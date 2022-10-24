@@ -9,7 +9,7 @@ public class ejercicio9 implements ejercicio{
 
     @Override
     public boolean execute() {
-        Pattern pat = Pattern.compile("[a-zA-Z]{5,10}");
+        Pattern pat = Pattern.compile("(3[01]?|[0-2]?[0-9])/(1[0-2]?|[0-9])/[0-9]{1,2}");
         Matcher mat = pat.matcher(Cadena);
         return mat.matches();
     }
