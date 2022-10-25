@@ -2,9 +2,9 @@ public class Main {
     public static void main(String[] args) {
 
         ejercicio exercise = null;
-        int chosen = 9;
-        String cadena = "15/12/0";
-        String fichero14 = "src/uca.txt";
+        int chosen = 13;
+        String cadena = "viagra";
+        String fichero14 = "src/uca.html";
 
         switch (chosen) {
             case 1 -> exercise = new ejercicio1(cadena);

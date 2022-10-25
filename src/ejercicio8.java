@@ -9,8 +9,8 @@ public class ejercicio8 implements  ejercicio{
 
     @Override
     public boolean execute() {
-        Pattern pat = Pattern.compile("^www.*\\.es");
+        Pattern pat = Pattern.compile("^www\\..*\\.es$");
         Matcher mat = pat.matcher(Cadena);
-        return mat.matches();
+        return mat.find();
     }
 }
