@@ -2,8 +2,8 @@ public class Main {
     public static void main(String[] args) {
 
         ejercicio exercise = null;
-        int chosen = 13;
-        String cadena = "viagra";
+        int chosen = 15;
+        String cadena = "<a>uno</a><b>dos</b><c>tres</c><d>cuatro</d><e>cinco</e>";
         String fichero14 = "src/uca.html";
 
         switch (chosen) {
