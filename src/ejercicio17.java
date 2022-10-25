@@ -12,18 +12,18 @@ public class ejercicio17 implements ejercicio{
         String texto = null;
         FileWriter fichero = null;
         try {
-            fichero = new FileWriter("src/resultado.txt");
+            texto = new String(Files.readAllBytes(Paths.get(Cadena)));
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
         try {
-            texto = new String(Files.readAllBytes(Paths.get(Cadena)));
+            fichero = new FileWriter("src/resultado.txt");
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
 
         try {
-            texto = texto.replaceAll("[:,.;?¿¡!\"’<>]", "");
+
             texto = texto.replaceAll("Á","A");
             texto = texto.replaceAll("É","E");
             texto = texto.replaceAll("Í","I");

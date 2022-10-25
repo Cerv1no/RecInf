@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
         ejercicio exercise = null;
-        int chosen = 15;
+        int chosen = 20;
         String cadena = "<a>uno</a><b>dos</b><c>tres</c><d>cuatro</d><e>cinco</e>";
         String fichero14 = "src/uca.html";
 
@@ -23,10 +23,10 @@ public class Main {
             case 14 -> exercise = new ejercicio14(fichero14);
             case 15 -> exercise = new ejercicio15(cadena);
             case 16 -> exercise = new ejercicio16("src/EjercicioExpresiones.txt");
-            case 17 -> exercise = new ejercicio17("src/EjercicioExpresiones.txt");
-            case 18 -> exercise = new ejercicio18("src/EjercicioExpresiones.txt");
-            case 19 -> exercise = new ejercicio19("src/EjercicioExpresiones.txt");
-            case 20 -> exercise = new ejercicio20("src/EjercicioExpresiones.txt");
+            case 17 -> exercise = new ejercicio17("src/resultado.txt");
+            case 18 -> exercise = new ejercicio18("src/resultado.txt");
+            case 19 -> exercise = new ejercicio19("src/resultado.txt");
+            case 20 -> exercise = new ejercicio20("src/resultado.txt");
             default -> {
             }
         }
